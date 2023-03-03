@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(to right top, #845EC2, #D8ACFF, #593796, #18025B, #030048);
+  min-height: 100vh;
+  
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+
+@media (min-width: 1024px) {
+  #app {
+    padding: 0 2rem;
+    width: 50%;
+  }
+}
